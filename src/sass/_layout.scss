@@ -1,0 +1,50 @@
+/*---------- layout css ----------*/
+.l-content{
+
+}
+.l-sidebar{
+
+}
+.l-main{
+
+}
+.l-nav{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    margin-bottom: 0px;
+    transition: all 0.3s ease-in-out;
+}
+.l-nav.nav-sticky{
+    margin-top: 0px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 35px 0px rgba(69, 61, 80, 0.05);
+    color: #00000090;
+}
+//layout responsive css
+@media (min-width: $screen-sm-min){//mobile lanscape
+
+}
+@media (min-width: $screen-md-min){//ipad portrait
+
+}
+@media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
+    .l-nav{
+        position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        margin-bottom: 0px;
+        transition: all 0.3s ease-in-out;
+    }
+}
+@media (min-width: $screen-xl-min){//pc & mac 1280px grow up
+
+}
+//layout responsive css
+/*---------- end layout css ----------*/

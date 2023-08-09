@@ -1,0 +1,45 @@
+/*---------- components css ----------*/
+/*banner*/
+.c-banner{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  .c-banner-item{
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+.c-banner-item{
+  margin-bottom: 1px;
+  img{
+    width:100%;
+    height: auto;
+  }
+}
+/*end banner*/
+/*box*/
+.c-box{
+  .c-box__title{
+    .c-box__title__name{
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}
+/*end box*/
+//components responsive css
+@media (min-width: $screen-sm-min){
+
+}
+@media (min-width: $screen-md-min){
+
+}
+@media (min-width: $screen-lg-min){
+
+}
+@media (min-width: $screen-xl-min){
+
+}
+//end components responsive css
+/*---------- end components css ----------*/

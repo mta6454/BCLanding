@@ -1,0 +1,53 @@
+/*---------- example css ----------*/
+.c-home-act{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    &-left{
+        width: 100%;
+        iframe{
+            width: 100%;
+            aspect-ratio: calc(16/9);
+        }
+    }
+    &-right{
+        width: 100%;
+    }
+}
+//example responsive css
+@media (min-width: $screen-sm-min){//mobile lanscape
+
+}
+@media (min-width: $screen-md-min){//ipad portrait
+
+}
+@media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
+.c-home-act{
+    flex-direction: row;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    &-left{
+        width: 50%;
+        iframe{
+            width: 100%;
+            aspect-ratio: calc(16/9);
+        }
+    }
+    &-right{
+        width: 50%;
+    }
+    &_des{
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
+}
+@media (min-width: $screen-xl-min){//pc & mac 1280px grow up
+
+}
+@media (min-width: $screen-xxl-min){//pc largr size with 1400px tp grow up
+
+}
+//end example responsive css
+/*---------- end example css ----------*/

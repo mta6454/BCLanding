@@ -1,0 +1,51 @@
+/*---------- header css ----------*/
+.l-nav{
+
+}
+.c-logo{
+  display: inline-block;
+  vertical-align: middle;
+  img{
+    width: auto;
+    height: auto;
+  }
+}
+.c-search{
+  .c-search__inner{
+    position: relative;
+    z-index: 1;
+  }
+  .form-control{
+    background-color: transparent;
+    border: none;
+  }
+  .c-search__btn{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+//header responsive css
+@media (min-width: $screen-sm-min){//mobile lanscape
+
+}
+@media (min-width: $screen-md-min){//ipad portrait
+
+}
+@media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
+  .c-logo{
+    float: left;
+  }
+}
+@media (min-width: $screen-xl-min){//pc & mac 1280px grow up
+
+}
+//header responsive css
+/*---------- end header css ----------*/

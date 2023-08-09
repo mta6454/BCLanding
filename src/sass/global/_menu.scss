@@ -1,0 +1,61 @@
+/*---------- menu css ----------*/
+.c-menu{
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: $color-white;
+  //display: none;
+  >ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    >li{
+      >a{
+        text-decoration: none;
+        display: block;
+        color: $color-text;
+        padding: 10px 15px;
+      }
+      &.is-active, &.active{
+        >a{
+
+        }
+      }
+    }
+  }
+}
+//menu responsive css
+@media (min-width: $screen-sm-min){//mobile lanscape
+
+}
+@media (min-width: $screen-md-min){//ipad portrait
+
+}
+@media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
+  .c-menu{
+    position: static;
+    background: transparent;
+    display: block !important;
+    >ul{
+      >li{
+        float: left;
+        >a{
+          line-height: 40px;
+          padding: 0 10px;
+        }
+        &:hover{
+          >a{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $screen-xl-min){//pc & mac 1280px grow up
+
+}
+//end menu responsive css
+/*---------- end menu css ----------*/

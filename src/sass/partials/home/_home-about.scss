@@ -1,0 +1,83 @@
+/*---------- example css ----------*/
+.pl-30{
+    padding-left: 30px;
+}
+.c-home-about{
+    text-align: justify;
+    &_img{
+        img{
+            width: -webkit-fill-available;
+            border-radius: 5px;
+        }
+    }
+    &_des{
+        margin-top: 20px;
+    }
+    .pl-30{
+        padding-left: 0;
+    }
+    .pr-30{
+        padding-right: 0;
+    }
+    &-left{
+        width: 100%;
+    }
+    &-right{
+        width: 100%;
+    }
+}
+.rotate{
+    flex-direction: column-reverse;
+}
+//example responsive css
+@media (min-width: $screen-sm-min){//mobile lanscape
+
+}
+@media (min-width: $screen-md-min){//ipad portrait
+
+}
+@media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
+.c-home-about{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    &_img{
+        img{
+            width: -webkit-fill-available;
+            border-radius: 5px;
+        }
+    }
+    &-left{
+        width: 50%;
+    }
+    &-right{
+        width: 50%;
+    }
+    &_title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &_des{
+        font-weight: 500;
+        color: $color-text;
+        text-align: justify;
+    }
+    .pl-30{
+        padding-left: 30px;
+    }
+    .pr-30{
+        padding-right: 30px;
+    }
+}
+.rotate{
+    flex-direction: row-reverse;
+}
+}
+@media (min-width: $screen-xl-min){//pc & mac 1280px grow up
+
+}
+@media (min-width: $screen-xxl-min){//pc largr size with 1400px tp grow up
+
+}
+//end example responsive css
+/*---------- end example css ----------*/

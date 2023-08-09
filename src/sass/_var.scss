@@ -1,0 +1,88 @@
+﻿//color base
+$color-white: #fff;
+$color-blue: #007bff;
+
+//color site
+$color-bg: $color-white;
+$color-bg2: #ececec;
+$color-link: $color-blue;
+$color-link-hover: #0000ff;
+$color-text: #333;
+$color-text-desc: #666;
+$color-border: #ddd;
+$color-time: #999;
+
+//color main
+$color-primary: #5DC2A7;
+$color-secondary: #FCF055;
+//$color-info: #17a2b8;
+//$color-success: #28a745;
+//$color-warning: #ffc107;
+//$color-danger: #dc3545;
+//$color-light: #f8f9fa;
+//$color-dark: #343a40;
+
+//color list
+$color-black: #000;
+//$color-indigo: #6610f2;
+$color-purple: #645CFE;
+//$color-pink: #e83e8c;
+//$color-red: #dc3545;
+$color-orange: #FBA800;
+//$color-yellow: #ffc107;
+//$color-green: #28a745;
+//$color-teal: #20c997;
+//$color-cyan: #17a2b8;
+//$color-gray: #6c757d;
+//$color-gray-dark: #343a40;
+
+//width
+$container-sm: 576px;
+$container-sm-number: 576;
+$container-md: 738px;
+$container-md-number: 738;
+$container-lg: 970px;
+$container-lg-number: 970;
+$container-xl: 1170px;
+$container-xl-number: 1170;
+
+//grid size
+$screen-xs: 0;
+$screen-xs-min: $screen-xs;
+$screen-sm: 576px;
+$screen-sm-min: $screen-sm;
+$screen-md: 768px;
+$screen-md-min: $screen-md;
+$screen-lg: 992px;
+$screen-lg-min: $screen-lg;
+$screen-xl: 1200px;
+$screen-xl-min: $screen-xl;
+$screen-xxl: 1600px;
+$screen-xxl-min: $screen-xxl;
+
+//grid size max
+$screen-sm-max: ($screen-md - 1);
+$screen-md-max: ($screen-lg - 1);
+$screen-lg-max: ($screen-xl - 1);
+$screen-xl-max: ($screen-xxl - 1);
+
+//font
+$font-arial: Arial,"Helvetica Neue",Helvetica,sans-serif;
+$font-lato: 'Lato',Arial,"Helvetica Neue",Helvetica,sans-serif;
+$font-roboto: 'Roboto',Arial,"Helvetica Neue",Helvetica,sans-serif;
+$font-roboto-condensed: 'Roboto Condensed','Roboto',Arial;
+$font-open-sans: 'Open Sans','Roboto',Arial,sans-serif;
+$font-awesome: 'FontAwesome';
+$font-awesome-5-free: 'Font Awesome 5 Free';
+$font-quicksand: 'Quicksand', sans-serif;
+$font-noto: 'Quicksand';
+$font-site: $font-noto;
+$font-title: $font-noto;
+$font-desc: $font-noto;
+$font-detail: $font-noto;
+
+//font size
+$font-size-xs: 14px;
+$line-height-xs: 20px;
+$font-size-md: 14px;
+$line-height-md: 20px;

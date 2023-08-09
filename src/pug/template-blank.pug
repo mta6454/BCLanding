@@ -1,0 +1,19 @@
+extends layouts/_layout.pug
+
+block variables
+    - var activePage = 'blank-page';
+
+block title
+    title KikiCMS - Blank page
+
+block content
+    .container
+        p This is Blank page
+            .c-box
+                .c-box__title
+                    .c-box__title__name Box title
+                .c-box__content
+                    | Content
+                //end c-box__content
+        //end c-box
+    //end container

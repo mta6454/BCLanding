@@ -1,0 +1,24 @@
+//l-nav
+.l-nav#navbar
+    nav.c-header-inner.navbar.navbar-expand-lg
+        a.header-left(href="#")
+            img(src="upload/logo.jpeg", alt="")
+        button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")#navbarbtn
+            i.fa-solid.fa-bars
+        ul.header_items.collapse.navbar-collapse#navbarNavAltMarkup
+            li.header-right_home.nav-item#scrollElement
+                div(onclick="scrollToSession('home')") Home 
+            li.header-right_about.nav-item 
+                div(onclick="scrollToSession('about')") About Us
+            li.header-right_activities.nav-item 
+                div(onclick="scrollToSession('activities')") Activities
+        .header_social
+            a.fb-icon(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank") 
+                i.fa-brands.fa-facebook.fa-2xl
+            a.insta-icon(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank")
+                i.fa-brands.fa-instagram.fa-2xl
+            a.yt-icon(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank")
+                i.fa-brands.fa-youtube.fa-2xl(style="color:#f50505")
+
+//end l-nav
+

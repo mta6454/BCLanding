@@ -1,0 +1,80 @@
+/*---------- footer css ----------*/
+
+.l-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    &-left{
+        width: 100%;
+        iframe{
+            width: 100%;
+        }
+    }
+    &_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &-right{
+        width: 100%;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &_name{
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        &_phone{
+            margin-bottom: 15px;
+        }
+        &_email{
+            margin-bottom: 15px;
+        }
+        &_address{
+            margin-bottom: 15px;
+        }
+        &_social{
+            .fb-icon{
+                color: rgb(56, 88, 152);
+                cursor: pointer;
+                margin-right: 20px;
+                width: 28px;
+                height: 28px;
+            }
+            .insta-icon{
+                cursor: pointer;
+                width: 28px;
+                height: 28px;
+                margin-right: 20px;
+            }
+            .yt-icon{
+                cursor: pointer;
+                width: 28px;
+                height: 28px;
+            }
+        }
+    }
+}
+//footer responsive css
+@media (min-width: $screen-sm-min){//mobile lanscape
+}
+@media (min-width: $screen-md-min){//ipad portrait
+.l-footer{
+    &_row{
+        flex-direction: row;
+    }
+}
+}
+@media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
+}
+@media (min-width: $screen-xl-min){//pc & mac 1280px grow up
+
+}
+//end footer responsive css
+/*---------- end footer css ----------*/

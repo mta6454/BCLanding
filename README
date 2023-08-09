@@ -1,0 +1,6 @@
+## init project
+chạy  terminal "npm i" 
+chạy  terminal "npm i -g json-server"
+## run project
+tiếp theo chạy " json-server --watch db.json"
+cuối cùng chạy "grunt" hoặc "npm start"

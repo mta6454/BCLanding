@@ -1,0 +1,114 @@
+/*---------- example css ----------*/
+.c-header-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    min-height: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    .header-left{
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        img {
+          height: 60px;
+          width: 60px;
+        }
+    }
+    span{
+        margin: 0 30px;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover{
+            color: rgb(56, 88, 152);
+            border-bottom: 2px solid rgb(56, 88, 152);
+        }
+    }
+    .fb-icon{
+        color: rgb(56, 88, 152);
+        cursor: pointer;
+        margin-right: 20px;
+        width: 28px;
+        height: 28px;
+    }
+    .insta-icon{
+        cursor: pointer;
+        width: 28px;
+        height: 28px;
+        margin-right: 20px;
+    }
+    .yt-icon{
+        cursor: pointer;
+        width: 28px;
+        height: 28px;
+    }
+}
+.header_social{
+    display: none;
+}
+.navbar-toggler{
+    width: 26px;
+    height: 26px;
+}
+.navbar{
+    padding: 0 10px;
+    ul{
+        margin: 0;
+        padding: 0 10px;
+    }
+    li{
+        padding: 10px 0;
+        list-style-type: none;
+        cursor: pointer;
+        font-weight: 600;
+        &:hover{
+            opacity: 0.9;
+        }
+
+        &:first-child{
+            margin-top: 15px;
+        }
+        &:last-child{
+            margin-bottom: 15px;
+        }
+    }
+}
+//example responsive css
+@media (min-width: $screen-sm-min){//mobile lanscape
+
+}
+@media (min-width: $screen-md-min){//ipad portrait
+
+}
+@media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
+.c-header-inner{
+    padding: 0 60px;
+}
+.header_social{
+    display: block;
+}
+.navbar{
+    ul{
+        justify-content: center;
+    }
+    li{
+        margin: 0 20px;
+        &:first-child{
+            margin-top: 0;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+}
+@media (min-width: $screen-xl-min){//pc & mac 1280px grow up
+
+}
+@media (min-width: $screen-xxl-min){//pc largr size with 1400px tp grow up
+
+}
+//end example responsive css
+/*---------- end example css ----------*/

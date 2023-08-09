@@ -1,0 +1,42 @@
+doctype html
+html(lang='en')
+
+    //Variables to set active page in sidebar
+    block variables
+        - var activePage = 'layout';
+
+    head
+        //Required meta tags
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(http-equiv='content-language', content='vi')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='author', content='Template')
+        meta(name='COPYRIGHT', content='© Template')
+        meta(name='robots', content='noodp,index,follow')
+        meta(name='google', content='notranslate')
+        meta(name='keywords', content='')
+        meta(name='description', content='')
+        link(rel='shortcut icon', href='images/favicon.ico')
+        link(rel='stylesheet' , href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css")
+        block title
+            title KikiCMS - Wellcome Framework Frontend template create by Pugjs & Sass
+
+        include ../includes/_head.pug
+
+    body
+
+        //Header part
+        include ../includes/_header.pug
+
+        //Content page part
+        block content
+
+        //Footer part
+        include ../includes/_footer.pug
+
+        //Optional JavaScript part
+        include ../includes/_javascript.pug
+
+        //Page specific javascripts part
+        block specific-js

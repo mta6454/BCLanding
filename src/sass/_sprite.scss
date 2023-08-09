@@ -1,0 +1,53 @@
+/*---------- sprite css ----------*/
+[class*="icon"]{
+  display:inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+[class*="icon12"]{
+  width:12px;
+  height:12px;
+}
+[class*="icon16"]{
+	width:16px;
+	height:16px;
+}
+[class*="icon20"]{
+  width:20px;
+  height:20px;
+}
+[class*="icon24"]{
+	width:24px;
+	height:24px;
+}
+[class*="icon32"]{
+	width:32px;
+	height:32px;
+}
+[class*="icon36"]{
+  width:36px;
+  height:36px;
+}
+[class*="icon48"]{
+  width:48px;
+  height:48px;
+}
+[class*="icon64"]{
+  width:64px;
+  height:64px;
+}
+.icon20-check-circle-primary{
+  background-image: url("../images/icons/icon20-check-circle-primary.svg");
+}
+.icon-google{
+  background-image: url('../images/icons/icon-google.svg');
+  width: 160px;
+  height: 47px;
+}
+.icon-appstore{
+  background-image: url('../images/icons/icon-appstore.svg'); 
+  width: 160px;
+  height: 47px;
+}
+/*---------- end sprite css ----------*/
