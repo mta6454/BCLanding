@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "*.pug", "use": "@vercel/static-build" }
+    ],
+    "routes": [
+      { "handle": "filesystem" }
+    ]
+  }
