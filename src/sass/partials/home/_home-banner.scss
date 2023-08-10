@@ -4,6 +4,7 @@
     img{
         aspect-ratio: 2;
         width: -webkit-fill-available;
+        object-fit: cover;
     }
     &-wrapper{
         width: 100%;
