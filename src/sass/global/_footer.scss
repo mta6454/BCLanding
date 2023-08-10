@@ -25,10 +25,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size: 16px;
         &_name{
             margin-bottom: 20px;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 25px;
         }
         &_phone{
             margin-bottom: 15px;
@@ -44,19 +45,17 @@
                 color: rgb(56, 88, 152);
                 cursor: pointer;
                 margin-right: 20px;
-                width: 28px;
-                height: 28px;
+                width: 30px;
+                height: 30px;
+                font-size: 18px;
             }
-            .insta-icon{
+            .tiktok-icon{
                 cursor: pointer;
                 width: 28px;
                 height: 28px;
                 margin-right: 20px;
-            }
-            .yt-icon{
-                cursor: pointer;
-                width: 28px;
-                height: 28px;
+                color: #ccc;
+                font-size: 18px;
             }
         }
     }

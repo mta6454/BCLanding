@@ -23,30 +23,34 @@
     <!--Header part-->
     <!--l-nav-->
     <div class="l-nav" id="navbar">
-      <nav class="c-header-inner navbar navbar-expand-lg"><a class="header-left" href="#"><img src="upload/logo.jpeg" alt=""></a>
+      <nav class="c-header-inner navbar navbar-expand-lg"><a class="header-left" href="#"><img class="logo-white" src="upload/logo-white.png" alt="" id="logo-white"><img class="logo-black" src="upload/logo-black.png" alt="" id="logo-black"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navbarbtn"><i class="fa-solid fa-bars"></i></button>
         <ul class="header_items collapse navbar-collapse" id="navbarNavAltMarkup">
-          <li class="header-right_home nav-item" id="scrollElement">
-            <div onclick="scrollToSession('home')">Home </div>
+          <li class="header-right_home nav-item" id="scrollElement" onclick="scrollToSession('home')">
+            <div>Home </div>
           </li>
-          <li class="header-right_about nav-item"> 
-            <div onclick="scrollToSession('about')">About Us</div>
+          <li class="header-right_about nav-item" onclick="scrollToSession('about')">
+            <div>About Us</div>
           </li>
-          <li class="header-right_activities nav-item"> 
-            <div onclick="scrollToSession('activities')">Activities</div>
+          <li class="header-right_activities nav-item" onclick="scrollToSession('activities')">
+            <div>Activities</div>
           </li>
         </ul>
-        <div class="header_social"><a class="fb-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a><a class="insta-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a><a class="yt-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color:#f50505"></i></a></div>
+        <div class="header_social"><a class="fb-icon" id="fb" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a><a class="tiktok-icon" id="tiktok" href="https://www.tiktok.com/@bc.pilates" target="_blank"><i class="fa-brands fa-tiktok fa-2xl"></i></a></div>
       </nav>
     </div>
     <!--end l-nav-->
     <!--Content page part-->
+    <div class="c-home-banner" id="home"><img src="upload/sample-3.jpg" alt="">
+      <div class="c-home-banner-wrapper">
+        <div class="c-home-banner-content">
+          <div class="c-home-banner-title">Join Us</div>
+          <div class="c-home-banner-des">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium upto doloremque amet dolor It is a long established.</div><a class="c-home-slides-btn" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank">Join now</a>
+        </div>
+      </div>
+    </div>
     <!--home about-->
     <div class="c-home-slides" id="home">
-      <div class="c-home-slides-content">
-        <div class="c-home-slides-title">Join Us</div>
-        <div class="c-home-slides-des">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium upto doloremque amet dolor It is a long established.</div><a class="c-home-slides-btn" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank">Join now</a>
-      </div>
       <div class="owl-carousel slides-list owl-theme"><img src="upload/sample.jpg" alt="slide"><img src="upload/sample-2.jpg" alt="slide"><img src="upload/sample-3.jpg" alt="slide"><img src="upload/sample.jpg" alt="slide"><img src="upload/sample-2.jpg" alt="slide"><img src="upload/sample-3.jpg" alt="slide"></div>
       <div class="customPrevBtn button fa-solid fa-chevron-left">         </div>
       <div class="customNextBtn button button-right fa-solid fa-chevron-right"></div>
@@ -54,7 +58,7 @@
     <!--end home about-->
     <div class="bg-light">
       <div class="container">
-        <div class="c-home-about" id="about">
+        <div class="c-home-about">
           <div class="c-home-about-left">
             <div class="c-home-about_img"><img src="upload/sample.jpg" alt=""></div>
           </div>
@@ -62,11 +66,11 @@
             <div class="c-home-about_des pl-30">Experience the benefits of tailored Pilates classes in Hanoi. Our expert instructors will create personalized routines to help you improve flexibility, strength, and posture. Whether you're a beginner or an advanced practitioner, our classes will meet your individual needs and fitness goals. Join us and start your journey to a healthier and more balanced body.</div>
           </div>
         </div>
-        <div class="c-home-about mt-20 rotate">
+        <div class="c-home-about mt-20 rotate" id="about">
           <div class="c-home-about-left">
             <div class="c-home-about_img"><img src="upload/sample-2.jpg" alt=""></div>
           </div>
-          <div class="c-home-about-right"> 
+          <div class="c-home-about-right">
             <div class="c-home-about_title">About Us</div>
             <div class="c-home-about_des pr-30">BC. pilates is a premier pilates studio located in the heart of Hanoi, HN. Our team of certified instructors are dedicated to helping our clients achieve their fitness goals through personalized, challenging and fun pilates classes. At BC. pilates, we believe that pilates is more than just a workout - it's a lifestyle. We strive to create a welcoming and supportive community where our clients can feel empowered and inspired to reach their full potential. Whether you're a beginner or an experienced practitioner, we offer a variety of classes and programs to suit your needs and help you achieve your best self.</div>
           </div>
@@ -74,8 +78,8 @@
       </div>
     </div>
     <div class="container"> 
-      <div class="c-home-act" id="activities">
-        <div class="c-home-act-left"> 
+      <div class="c-home-act">
+        <div class="c-home-act-left" id="activities"> 
           <iframe src="https://www.youtube-nocookie.com/embed/ZbR6dYkqorI" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="YouTube video player"> </iframe>
         </div>
         <div class="c-home-act-right"> 
@@ -95,7 +99,7 @@
           <div class="l-footer-right_email"> <b>Email: </b><span>Example@gmail.com</span></div>
           <div class="l-footer-right_address"> <b>Địa chỉ: </b><span>Số 100 Láng Hạ, Đống Đa, Hà Nội</span></div>
           <div class="l-footer-right_phone"> <b>Số điện thoại: </b><span>0987654321</span></div>
-          <div class="l-footer-right_social"> <a class="fb-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a><a class="insta-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a><a class="yt-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color:#f50505"></i></a></div>
+          <div class="l-footer-right_social"> <a class="fb-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a><a class="tiktok-icon" id="tiktok" href="https://www.tiktok.com/@bc.pilates" target="_blank"><i class="fa-brands fa-tiktok fa-2xl"></i></a></div>
         </div>
       </div>
     </div>

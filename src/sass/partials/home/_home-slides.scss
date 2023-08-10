@@ -2,31 +2,6 @@
 .c-home-slides{
     position: relative;
     width: 100%;
-    &-content{
-        width: 50%;
-        left: 25%;
-        top: 5%;
-        aspect-ratio: calc(16/9);
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        border-radius: 0px 30px 0px;
-        z-index: 3;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 10px;
-    }
-    &-title{
-        font-size: 30px;
-        font-weight: 700;
-        color: #fff;
-        text-align: center;
-    }
-    &-des{
-        color: #ffffff80;
-        text-align: center;
-    }
     &-btn{
         justify-self: flex-end;
         background-color:#00B4D8;
@@ -106,10 +81,6 @@
         position: relative;
         width: 100%;
         &-content{
-            width: 50%;
-            top: 25%;
-            left: 25%;
-            aspect-ratio: calc(16/9);
             position: absolute;
             background-color: rgba(0, 0, 0, 0.4);
             border-radius: 0px 30px 0px;

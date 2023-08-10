@@ -2,23 +2,22 @@
 .l-nav#navbar
     nav.c-header-inner.navbar.navbar-expand-lg
         a.header-left(href="#")
-            img(src="upload/logo.jpeg", alt="")
+            img(src="upload/logo-white.png", alt="").logo-white#logo-white
+            img(src="upload/logo-black.png", alt="").logo-black#logo-black
         button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")#navbarbtn
             i.fa-solid.fa-bars
         ul.header_items.collapse.navbar-collapse#navbarNavAltMarkup
-            li.header-right_home.nav-item#scrollElement
-                div(onclick="scrollToSession('home')") Home 
-            li.header-right_about.nav-item 
-                div(onclick="scrollToSession('about')") About Us
-            li.header-right_activities.nav-item 
-                div(onclick="scrollToSession('activities')") Activities
+            li.header-right_home.nav-item#scrollElement(onclick="scrollToSession('home')")
+                div Home 
+            li.header-right_about.nav-item(onclick="scrollToSession('about')")
+                div About Us
+            li.header-right_activities.nav-item(onclick="scrollToSession('activities')")
+                div Activities
         .header_social
-            a.fb-icon(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank") 
+            a.fb-icon#fb(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank") 
                 i.fa-brands.fa-facebook.fa-2xl
-            a.insta-icon(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank")
-                i.fa-brands.fa-instagram.fa-2xl
-            a.yt-icon(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank")
-                i.fa-brands.fa-youtube.fa-2xl(style="color:#f50505")
+            a.tiktok-icon#tiktok(href="https://www.tiktok.com/@bc.pilates" target="_blank")
+                i.fa-brands.fa-tiktok.fa-2xl
 
 //end l-nav
 
