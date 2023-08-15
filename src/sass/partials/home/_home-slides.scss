@@ -2,25 +2,7 @@
 .c-home-slides{
     position: relative;
     width: 100%;
-    &-btn{
-        justify-self: flex-end;
-        background-color:#00B4D8;
-        border-radius: 99px;
-        width: 120px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-        font-weight: 700;
-        text-decoration: none;
-        margin-top: 30px;
-        &:hover{
-            opacity: 0.9;
-            text-decoration: none;
-            color: #fff;
-        }
-    }
+
 }
 .owl-dots{
     margin-top: 10px;

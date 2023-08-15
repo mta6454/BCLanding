@@ -18,12 +18,15 @@
     <title>KikiCMS - Blank page</title>
     <!--Include CSS-->
     <link href="css/style.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '661839372570801');fbq('track', 'PageView');</script>
+    <noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=661839372570801&ev=PageView&noscript=1"></noscript>
   </head>
   <body>
     <!--Header part-->
     <!--l-nav-->
     <div class="l-nav" id="navbar">
-      <nav class="c-header-inner navbar navbar-expand-lg"><a class="header-left" href="#"><img class="logo-white" src="upload/logo-white.png" alt="" id="logo-white"><img class="logo-black" src="upload/logo-black.png" alt="" id="logo-black"></a>
+      <nav class="c-header-inner navbar navbar-expand-lg"><a class="header-left" onclick="scrollToSession('home')"><img class="logo-black" src="upload/logo-black.png" alt="" id="logo-black"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navbarbtn"><i class="fa-solid fa-bars"></i></button>
         <ul class="header_items collapse navbar-collapse" id="navbarNavAltMarkup">
           <li class="header-right_home nav-item" id="scrollElement" onclick="scrollToSession('home')">
@@ -81,7 +84,8 @@
     <script src="js/jquery.matchHeight-min.js"></script>
     <script src="js/style.js"></script>
     <script src="js/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
     <!--Page specific javascripts part-->
   </body>
 </html>

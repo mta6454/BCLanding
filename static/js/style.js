@@ -109,3 +109,13 @@ $('.customNextBtn').click(function() {
 $('.customPrevBtn').click(function() {
   $('.owl-carousel').trigger('prev.owl.carousel', [500]);
 })
+$(function() {
+  $('.lazy').Lazy({
+    scrollDirection: 'vertical',
+    effect: 'fadeIn',
+    visibleOnly: true,
+    onError: function(element) {
+        console.log('error loading ' + element.data('src'));
+    }
+  });
+});

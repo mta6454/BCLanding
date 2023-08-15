@@ -9,6 +9,8 @@
     align-items: center;
     padding: 0 30px;
     font-size: 18px;
+    box-shadow: 0px 8px 35px 0px rgba(69, 61, 80, 0.05);
+
     .header-left{
         display: flex;
         height: 80px;
@@ -34,14 +36,19 @@
     margin-right: 20px;
     width: 28px;
     height: 28px;
-    color: #ccc;
+    transition: all 0.3s ease-in-out;
 }
 .tiktok-icon{
     cursor: pointer;
     width: 28px;
     height: 28px;
     margin-right: 20px;
-    color: #ccc;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        color: #333;
+        opacity: 0.9;
+    }
 }
 .header_social{
     display: none;
@@ -57,12 +64,14 @@
         padding: 0 10px;
     }
     li{
+        transition: all 0.3s ease-in-out;
         padding: 10px 0;
         list-style-type: none;
         cursor: pointer;
         font-weight: 600;
         &:hover{
-            opacity: 0.9;
+            color: darkblue;
+            opacity: 0.8;
         }
 
         &:first-child{

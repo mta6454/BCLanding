@@ -32,12 +32,6 @@
         display: block;
     }
 }
-.logo-white{
-    display: none;
-}
-.logo-black{
-    display: block;
-}
 //layout responsive css
 @media (min-width: $screen-sm-min){//mobile lanscape
 
@@ -46,14 +40,8 @@
 
 }
 @media (min-width: $screen-lg-min){//ipad lanscape & pc 1024x768px
-    .logo-white{
-        display: block;
-    }
-    .logo-black{
-        display: none;
-    }
     .l-nav{
-        position: fixed;
+        position: sticky;
         top: 0;
         right: 0;
         left: 0;
@@ -61,8 +49,8 @@
         width: 100%;
         margin-bottom: 0px;
         transition: all 0.3s ease-in-out;
-        background-color: transparent;
-        color: #ffffff80;
+        background-color: #fff;
+        color: #333;
     }
 }
 @media (min-width: $screen-xl-min){//pc & mac 1280px grow up

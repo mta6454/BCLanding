@@ -42,12 +42,15 @@
         }
         &_social{
             .fb-icon{
-                color: rgb(56, 88, 152);
+                color: #ccc;
                 cursor: pointer;
                 margin-right: 20px;
                 width: 30px;
                 height: 30px;
                 font-size: 18px;
+                &:hover{
+                    color: #cccccc90;
+                }
             }
             .tiktok-icon{
                 cursor: pointer;
@@ -56,6 +59,9 @@
                 margin-right: 20px;
                 color: #ccc;
                 font-size: 18px;
+                &:hover{
+                    color: #cccccc90;
+                }
             }
         }
     }

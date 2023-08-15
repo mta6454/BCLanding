@@ -1,3 +1,11 @@
+@media (max-width: 360px) {
+    .c-home-banner{
+        &-des{
+            display: none;
+        }
+    }
+    
+}
 .c-home-banner{
     width: 100%;
     position: relative;
@@ -31,7 +39,7 @@
         height: 100%;
         justify-content: center;
         align-items: center;
-        min-width: 400px;
+        min-width: 300px;
     }
     &-title{
         font-size: 35px;
@@ -43,6 +51,26 @@
         color: #ffffff80;
         text-align: center;
     }
+    &-btn{
+        justify-self: flex-end;
+        background-color:#00B4D8;
+        border-radius: 99px;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        margin-top: 10px;
+        &:hover{
+            opacity: 0.8;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
 }
 
 @media (min-width: $screen-sm-min){//mobile lanscape
@@ -51,6 +79,9 @@
         width: 50%;
         aspect-ratio: 2;
         height: auto;
+    }
+    &-btn{
+        margin-top: 20px;
     }
 }
 }

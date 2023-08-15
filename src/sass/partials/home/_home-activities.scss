@@ -13,6 +13,13 @@
     &-right{
         width: 100%;
     }
+    &_des{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .pl-30{
+        padding: 0;
+    }
 }
 //example responsive css
 @media (min-width: $screen-sm-min){//mobile lanscape
@@ -37,9 +44,8 @@
     &-right{
         width: 50%;
     }
-    &_des{
-        font-size: 28px;
-        font-weight: 700;
+    .pl-30{
+        padding-left: 30px;
     }
 }
 }
