@@ -50,6 +50,8 @@
         img{
             width: -webkit-fill-available;
             border-radius: 5px;
+            object-fit: cover;
+            aspect-ratio: 2;
         }
     }
     &-left{

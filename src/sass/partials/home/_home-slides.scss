@@ -31,7 +31,8 @@
         border-radius: 10px;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        object-fit: cover;
     }
 }
 .button{

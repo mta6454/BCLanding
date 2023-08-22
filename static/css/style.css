@@ -10783,7 +10783,9 @@ select:not([multiple])::-ms-expand {
   border-radius: 10px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .button {
@@ -10891,6 +10893,9 @@ select:not([multiple])::-ms-expand {
   .c-home-about_img img {
     width: -webkit-fill-available;
     border-radius: 5px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    aspect-ratio: 2;
   }
   .c-home-about-left {
     width: 50%;
