@@ -1,6 +1,7 @@
 //l-nav
 .l-nav#navbar
     nav.c-header-inner.navbar.navbar-expand-lg
+        .header-hidden
         a.header-left(onclick="scrollToSession('home')")
             //- img(src="upload/logo-white.png", alt="").logo-white#logo-white
             img(src="upload/logo-black.png", alt="").logo-black#logo-black
@@ -8,11 +9,25 @@
             i.fa-solid.fa-bars
         ul.header_items.collapse.navbar-collapse#navbarNavAltMarkup
             li.header-right_home.nav-item#scrollElement(onclick="scrollToSession('home')")
-                div Home 
+                div Trang chủ 
             li.header-right_about.nav-item(onclick="scrollToSession('about')")
-                div About Us
-            li.header-right_activities.nav-item(onclick="scrollToSession('activities')")
-                div Activities
+                div Thông tin về BC Pilates
+            li.header-right_lesson.nav-item 
+                div Đăng ký tập thử miễn phí
+            li.header-right_lesson.nav-item 
+                div Lớp tập giảm cân
+            li.header-right_lesson.nav-item 
+                div Lớp tập cho tân binh
+            li.header-right_lesson.nav-item 
+                div Lớp tập cho mẹ bỉm sữa
+            .header-right.nav-item.dropdown
+                .dropdown-btn Xem thêm
+                    i.fa-solid.fa-chevron-down
+                .dropdown-content 
+                    a Đăng kí tập thử miễn phí
+                    a Lớp tập giảm cân 
+                    a Lớp tập cho tân binh 
+                    a Lớp tập cho mẹ bỉm sữa
         .header_social
             a.fb-icon#fb(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank") 
                 i.fa-brands.fa-facebook.fa-2xl
