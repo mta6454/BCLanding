@@ -10920,11 +10920,16 @@ select:not([multiple])::-ms-expand {
 
 .c-home-about {
   text-align: justify;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .c-home-about_img img {
   width: -webkit-fill-available;
   border-radius: 5px;
+  aspect-ratio: 2;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .c-home-about_title {
@@ -11143,11 +11148,16 @@ select:not([multiple])::-ms-expand {
 
 .c-home-lesson {
   text-align: justify;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .c-home-lesson_img img {
   width: -webkit-fill-available;
   border-radius: 5px;
+  aspect-ratio: 2;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .c-home-lesson_title {
