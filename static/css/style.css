@@ -10129,7 +10129,6 @@ select:not([multiple])::-ms-expand {
 
 .l-footer-right {
   width: 100%;
-  padding: 0 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10183,6 +10182,9 @@ select:not([multiple])::-ms-expand {
 @media (min-width: 768px) {
   .l-footer_row {
     flex-direction: row;
+  }
+  .l-footer-right {
+    padding: 0 30px;
   }
 }
 
