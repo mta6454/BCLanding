@@ -14,20 +14,23 @@
                 div Thông tin về BC Pilates
             li.header-right_lesson.nav-item 
                 div Đăng ký tập thử miễn phí
-            li.header-right_lesson.nav-item 
+            li.header-right_lesson.nav-item(onclick="scrollToSession('health-lesson')") 
+                div Lớp tập cải thiện sức khoẻ
+            li.header-right_lesson.nav-item(onclick="scrollToSession('weight-lesson')")
                 div Lớp tập giảm cân
-            li.header-right_lesson.nav-item 
-                div Lớp tập cho tân binh
-            li.header-right_lesson.nav-item 
+            li.header-right_lesson.nav-item(onclick="scrollToSession('mom-lesson')")
                 div Lớp tập cho mẹ bỉm sữa
+            li.header-right_lesson.nav-item(onclick="scrollToSession('new-lesson')")
+                div Lớp tập cho tân binh
             .header-right.nav-item.dropdown
                 .dropdown-btn Xem thêm
                     i.fa-solid.fa-chevron-down
                 .dropdown-content 
-                    a Đăng kí tập thử miễn phí
-                    a Lớp tập giảm cân 
-                    a Lớp tập cho tân binh 
-                    a Lớp tập cho mẹ bỉm sữa
+                    a(onclick="scrollToSession('home')") Đăng kí tập thử miễn phí
+                    a(onclick="scrollToSession('health-lesson')") Lớp tập cải thiện sức khoẻ
+                    a(onclick="scrollToSession('weight-lesson')") Lớp tập giảm cân 
+                    a(onclick="scrollToSession('mom-lesson')") Lớp tập cho mẹ bỉm sữa
+                    a(onclick="scrollToSession('new-lesson')") Lớp tập cho tân binh 
         .header_social
             a.fb-icon#fb(href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank") 
                 i.fa-brands.fa-facebook.fa-2xl

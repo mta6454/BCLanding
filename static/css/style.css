@@ -10129,31 +10129,31 @@ select:not([multiple])::-ms-expand {
 
 .l-footer-right {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 16px;
 }
 
-.l-footer-right_name {
+.l-footer-right iframe {
+  width: 100%;
+}
+
+.l-footer_name {
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 25px;
 }
 
-.l-footer-right_phone {
+.l-footer_phone {
   margin-bottom: 15px;
 }
 
-.l-footer-right_email {
+.l-footer_email {
   margin-bottom: 15px;
 }
 
-.l-footer-right_address {
+.l-footer_address {
   margin-bottom: 15px;
 }
 
-.l-footer-right_social .fb-icon {
+.l-footer_social .fb-icon {
   color: #ccc;
   cursor: pointer;
   margin-right: 20px;
@@ -10162,11 +10162,11 @@ select:not([multiple])::-ms-expand {
   font-size: 18px;
 }
 
-.l-footer-right_social .fb-icon:hover {
+.l-footer_social .fb-icon:hover {
   color: #cccccc90;
 }
 
-.l-footer-right_social .tiktok-icon {
+.l-footer_social .tiktok-icon {
   cursor: pointer;
   width: 28px;
   height: 28px;
@@ -10175,7 +10175,7 @@ select:not([multiple])::-ms-expand {
   font-size: 18px;
 }
 
-.l-footer-right_social .tiktok-icon:hover {
+.l-footer_social .tiktok-icon:hover {
   color: #cccccc90;
 }
 

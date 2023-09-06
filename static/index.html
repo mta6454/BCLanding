@@ -39,18 +39,21 @@
           <li class="header-right_lesson nav-item"> 
             <div>Đăng ký tập thử miễn phí</div>
           </li>
-          <li class="header-right_lesson nav-item"> 
+          <li class="header-right_lesson nav-item" onclick="scrollToSession('health-lesson')"> 
+            <div>Lớp tập cải thiện sức khoẻ</div>
+          </li>
+          <li class="header-right_lesson nav-item" onclick="scrollToSession('weight-lesson')">
             <div>Lớp tập giảm cân</div>
           </li>
-          <li class="header-right_lesson nav-item"> 
-            <div>Lớp tập cho tân binh</div>
-          </li>
-          <li class="header-right_lesson nav-item"> 
+          <li class="header-right_lesson nav-item" onclick="scrollToSession('mom-lesson')">
             <div>Lớp tập cho mẹ bỉm sữa</div>
+          </li>
+          <li class="header-right_lesson nav-item" onclick="scrollToSession('new-lesson')">
+            <div>Lớp tập cho tân binh</div>
           </li>
           <div class="header-right nav-item dropdown">
             <div class="dropdown-btn">Xem thêm<i class="fa-solid fa-chevron-down"></i></div>
-            <div class="dropdown-content"> <a>Đăng kí tập thử miễn phí</a><a>Lớp tập giảm cân </a><a>Lớp tập cho tân binh </a><a>Lớp tập cho mẹ bỉm sữa</a></div>
+            <div class="dropdown-content"> <a onclick="scrollToSession('home')">Đăng kí tập thử miễn phí</a><a onclick="scrollToSession('health-lesson')">Lớp tập cải thiện sức khoẻ</a><a onclick="scrollToSession('weight-lesson')">Lớp tập giảm cân </a><a onclick="scrollToSession('mom-lesson')">Lớp tập cho mẹ bỉm sữa</a><a onclick="scrollToSession('new-lesson')">Lớp tập cho tân binh </a></div>
           </div>
         </ul>
         <div class="header_social"><a class="fb-icon" id="fb" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a><a class="tiktok-icon" id="tiktok" href="https://www.tiktok.com/@bc.pilates" target="_blank"><i class="fa-brands fa-tiktok fa-2xl"></i></a></div>
@@ -88,7 +91,7 @@
             <div class="c-home-about_img"><img class="lazy" src="upload/upload-8.jpg" alt=""></div>
           </div>
           <div class="c-home-about-right">
-            <div class="c-home-about_title">About Us</div>
+            <div class="c-home-about_title">Về BC Pilates</div>
             <div class="c-home-about_des pr-30">BC. pilates is a premier pilates studio located in the heart of Hanoi, HN. Our team of certified instructors are dedicated to helping our clients achieve their fitness goals through personalized, challenging and fun pilates classes. At BC. pilates, we believe that pilates is more than just a workout - it's a lifestyle. We strive to create a welcoming and supportive community where our clients can feel empowered and inspired to reach their full potential. Whether you're a beginner or an experienced practitioner, we offer a variety of classes and programs to suit your needs and help you achieve your best self.</div>
           </div>
         </div>
@@ -101,7 +104,7 @@
             <div class="c-home-lesson_img"><img class="lazy" src="upload/upload-7.jpg" alt=""></div>
           </div>
           <div class="c-home-lesson-right">
-            <div class="c-home-lesson_title pl-30">Lớp tập cải thiện sức khỏe</div>
+            <div class="c-home-lesson_title pl-30" id="health-lesson">Lớp tập cải thiện sức khỏe</div>
             <div class="c-home-lesson_des pl-30">Pilates có thể mang lại nhiều lợi ích cho sức khỏe , tăng đồ bền bỉ , giảm căng thẳng và những bênh lý liên quan tới xương khớp và những bệnh lý liên quan tới tim mạch.</div>
           </div>
         </div>
@@ -110,7 +113,7 @@
             <div class="c-home-lesson_img"><img class="lazy" src="upload/upload-8.jpg" alt=""></div>
           </div>
           <div class="c-home-lesson-right">
-            <div class="c-home-lesson_title">Lớp tập giảm cân</div>
+            <div class="c-home-lesson_title" id="weight-lesson">Lớp tập giảm cân</div>
             <div class="c-home-lesson_des pr-30">Cùng với HLV tại BC việc tập Pilates giảm cân là điều không quá khó khăn và điều đặc biệt là những bài tập chuẩn y khoa không gây chấn thương.</div>
           </div>
         </div>
@@ -119,7 +122,7 @@
             <div class="c-home-lesson_img"><img class="lazy" src="upload/upload-7.jpg" alt=""></div>
           </div>
           <div class="c-home-lesson-right">
-            <div class="c-home-lesson_title pl-30">Lớp tập cho mẹ bỉm sữa</div>
+            <div class="c-home-lesson_title pl-30" id="mom-lesson">Lớp tập cho mẹ bỉm sữa</div>
             <div class="c-home-lesson_des pl-30">Với những bài tập chuyên biệt giúp bà mẹ bỉm sữa sức khoẻ cải thiện rõ rệt , tâm lý thoải mái vì cộng đồng chị em tại BC rất thân thiện và cởi mở.</div>
           </div>
         </div>
@@ -128,7 +131,7 @@
             <div class="c-home-lesson_img"><img class="lazy" src="upload/upload-8.jpg" alt=""></div>
           </div>
           <div class="c-home-lesson-right">
-            <div class="c-home-lesson_title">Lớp tập cho tân binh</div>
+            <div class="c-home-lesson_title" id="new-lesson">Lớp tập cho tân binh</div>
             <div class="c-home-lesson_des pr-30">Giải quyết mọi trăn trở : Mặc gì , tập gì , giá cả buổi tập ra sao , cộng đồng mọi người tại phòng như nào ? BC tặng bạn hành trang cho tân binh , giảm giá khuyến khích cho những tân binh theo từng đợt trong tháng định kỳ.</div>
           </div>
         </div>
@@ -137,7 +140,7 @@
     <div class="container"> 
       <div class="c-home-act">
         <div class="c-home-act-left" id="activities"> 
-          <iframe src="https://www.youtube-nocookie.com/embed/ZbR6dYkqorI" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="YouTube video player"> </iframe>
+          <iframe src="https://www.youtube.com/embed/TxNiSi6KNds?si=NXHGIcUBz6UJBU_H" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="YouTube video player"> </iframe>
         </div>
         <div class="c-home-act-right"> 
           <div class="c-home-act_des pl-30">Our Activities </div>
@@ -156,11 +159,11 @@
         </div>
       </div>
       <div class="container">  
-        <div class="l-footer-right_name">Beauty Core Pilates </div>
-        <div class="l-footer-right_address"> <b>Cơ sở 1: </b><span>Tầng 4 số 6-8 Mai Anh Tuấn, Hoàng Cầu, Đống Đa, Hà Nội</span></div>
-        <div class="l-footer-right_address"> <b>Cơ sở 2: </b><span>Tầng 3, Số 100-102-104 Láng Hạ, Đống Đa, Hà Nội</span></div>
-        <div class="l-footer-right_phone"> <b>Hotline: </b><span>0366.072.199</span></div>
-        <div class="l-footer-right_social"> <a class="fb-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a><a class="tiktok-icon" id="tiktok" href="https://www.tiktok.com/@bc.pilates" target="_blank"><i class="fa-brands fa-tiktok fa-2xl"></i></a></div>
+        <div class="l-footer_name">Beauty Core Pilates </div>
+        <div class="l-footer_address"> <b>Cơ sở 1: </b><span>Tầng 4 số 6-8 Mai Anh Tuấn, Hoàng Cầu, Đống Đa, Hà Nội</span></div>
+        <div class="l-footer_address"> <b>Cơ sở 2: </b><span>Tầng 3, Số 100-102-104 Láng Hạ, Đống Đa, Hà Nội</span></div>
+        <div class="l-footer_phone"> <b>Hotline: </b><span>0366.072.199</span></div>
+        <div class="l-footer_social"> <a class="fb-icon" href="https://www.facebook.com/profile.php?id=100087971947661" target="_blank"> <i class="fa-brands fa-facebook fa-2xl"></i></a><a class="tiktok-icon" id="tiktok" href="https://www.tiktok.com/@bc.pilates" target="_blank"><i class="fa-brands fa-tiktok fa-2xl"></i></a></div>
       </div>
     </div>
     <!--end l-footer-->
